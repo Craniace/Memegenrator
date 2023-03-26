@@ -1,0 +1,131 @@
+.h1{
+    background-color:rgb(254, 246, 86) ;
+    font-size:1.5cm;
+    font-weight: bolder;
+    text-align: center;
+    margin:0px;
+    color:aliceblue;
+    border-radius: 0px 0px 0px 45px;
+
+}
+.body{
+    background-image:url("https://xmple.com/wallpaper/gradient-white-yellow-linear-2880x1800-c2-ffffff-ffd700-a-90-f-14.svg");
+    background-repeat: no-repeat;
+  
+}
+
+.main{
+    text-align: center;
+    justify-content:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top:1cm ;
+    
+}
+
+.p1,.p2{
+ 
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.t1,.t2{
+    background-color: #7f5eff;
+    color: aliceblue;
+    font-size: 0.5cm;
+}
+.p4{
+    display: block;
+    height: 25em;
+    max-width: 30%;
+    margin:2cm auto 1em auto;
+    text-align: center;
+    justify-content:center;
+}
+.p3{
+    display: block;
+    text-align: center;
+    justify-content: baseline;
+    margin: 0 auto;
+    font-size: 1.2em;
+    width: 15cm;
+    height: 1.5cm;
+    border-radius: 2em;
+    background-color: #7f5eff;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+   
+}
+/* .p5{  display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 4cm;
+    font-size: 1.2em;
+    padding: 0.8em 2em;
+    border-radius: 2em;
+    background-color: #7f5eff;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    cursor: pointer;} */
+
+.im1{
+    text-align: center;
+    height: 10cm;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-items: center;
+    padding-bottom: 0.5cm;
+}
+
+
+* {
+    font: inherit;
+
+}
+
+#meme-canvas {
+    padding-top: 0.5cm;
+  
+    width: 400px;
+    height:9cm;
+}
+.b1 {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 4cm;
+    font-size: 1.2em;
+    padding: 0.8em 2em;
+    border-radius:82% 18% 89% 11% / 52% 59% 41% 48% ;
+    font-size: 1.1em;
+    cursor: pointer;
+    background-color: #7f5eff;
+    color: #fff;
+    border: none;
+  
+    transition: all .4s;
+   }
+   
+   .b1:hover {
+    border-radius: 5px;
+    transform: translateY(-10px);
+    box-shadow: 0 7px 0 -2px #f85959,
+     0 15px 0 -4px #39a2db,
+     0 16px 10px -3px #39a2db;
+   }
+   
+   .b1:active {
+    transition: all 0.2s;
+    transform: translateY(-5px);
+    box-shadow: 0 2px 0 -2px #f85959,
+     0 8px 0 -4px #39a2db,
+     0 12px 10px -3px #39a2db;
+   }

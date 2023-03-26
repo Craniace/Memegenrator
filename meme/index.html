@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="c.css">
+    <title>MeMe</title>
+    <link rel="shortcut icon" href="img\favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="body">
+    <div class="h1">
+        <header>😂 MeMe GeNeRaToR 😂</header>
+    </div>
+
+
+    <div class="main">
+        <p class="p1">
+            <textarea class="t1" id="top-text"></textarea>
+            Text size: <input type="range" id="top-text-size-input" min="0.05" max="0.25" value="0.15" step="0.01">
+        </p>
+        <p class="p2">
+            <textarea class="t2" id="bottom-text"></textarea>
+            Text size: <input type="range" id="bottom-text-size-input" min="0.05" max="0.25" value="0.15" step="0.01">
+        </p>
+        <p class="p3">
+            <input type="file" id="image-input" accept="image/*">
+        </p>
+        <p class="p5">
+            <button class="b1" id="generate-btn">Generate!</button>
+        </p>
+        <p class="p4">
+                <canvas id="meme-canvas" title="Right click -> &quot;Save image as...&quot;"></canvas>
+        </p>
+        <img class="im1" src="https://i.imgflip.com/479lwc.jpg" alt="funny">
+    </div>
+    <script src="j.js"></script>
+
+</body>
+<!-- <footer class="f1">
+  
+</footer> -->
+
+</html>
